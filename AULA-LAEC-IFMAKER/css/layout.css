@@ -1,0 +1,34 @@
+.layout-cabecalho {
+    height: 60px;
+    border-bottom: 1px solid #CCC;
+}
+
+.layout-cabecalho img {
+    margin-top: 12px;
+}
+
+.layout-projetos {
+    padding: 20px 0;
+}
+.layout-chamada{
+  padding: 25px 0;
+  
+}
+
+.layout-contato {
+  padding: 20px 0;
+  background-color: #e5e5e5;
+  position: relative;
+}
+
+footer span{
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+}
+
+.layout-sobre{
+  
+}

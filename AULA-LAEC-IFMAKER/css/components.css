@@ -1,0 +1,193 @@
+/*--------------------*\
+        CHAMADA
+\*--------------------*/
+.chamada__conteudo{
+  padding-top: 20px;
+  padding-right: 25%;
+  padding-bottom: 75px;
+  padding-left: 25%;
+
+}
+.chamada__conteudo h1{
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.chamada__conteudo p{
+  font-size: 1.4em;
+}
+.chamada__fundo {
+  background-image: url('../img/banner3.png');
+  background-position: center;
+  position: relative;
+}
+
+.chamada__botao{
+  text-align: center;
+}
+
+
+/*--------------------*\
+        SOBRE
+\*--------------------*/
+.sobre__titulo{
+  text-align: center;
+  font-size: 2.4em;
+  color: #737373;
+  padding: 20px;
+}
+/*
+.sobre__titulo::after {
+  content: ""; 
+  border-top: 0.2rem solid #737373;
+  width: 10%;
+  position: absolute;
+  top: 4.2em;
+  left: 45%;
+}*/
+
+.sobre__info img{
+  position: flex;
+}
+
+
+.titulo__sobre{
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/*--------------------*\
+        PROJETOS
+\*--------------------*/
+
+.projeto {
+    background-color: #F2F2F2;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1.4rem;
+    border: 1px solid #007D08;
+}
+
+.projeto__cabecalho {
+    background-color: #007D08;
+    color: #FFF;
+    text-align: center;
+    line-height: 2.5;
+    margin: -10px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.projeto__nome {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+@media(max-width: 1200px){
+    .projeto__nome {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 767px) {
+    .projeto__nome {
+        font-size: 2em;
+    }
+}
+
+.projeto__imagem {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.projeto__rodape {
+    text-align: center;
+}
+
+/*--------------------*\
+        BUTTON
+\*--------------------*/
+
+.botao {
+    display: inline-block;
+    background-color: #777a77;
+    color: #FFF;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.botao:hover, .botao:focus {
+    background-color: #444544;
+    color: #fff;
+}
+
+.botao-participar {
+    background-color: #007D08;
+}
+
+.botao-participar:hover, .botao-participar:focus {
+    background-color: #0E6400;
+}
+
+/*--------------------*\
+        CONTATO
+\*--------------------*/
+
+.contato__titulo {
+color: #737373; /*cor do texto*/
+margin: 0 0 65px 0; /*adiciona uma margem abaixo do texto*/
+font-size: 30px; /*tamanho do texto*/
+text-align: center; /*alinhamento do texto*/
+font-weight: 400;
+}
+
+
+.contato__titulo::after {
+content: ""; /*conteudo vazio*/
+border-top: 3px solid #737373;
+width: 10%; /*comprimento utilizado*/
+/*
+utilizamos o posicionamento (position) para indicar onde esse novo elemento
+deverá ficar
+*/
+position: absolute;
+top: 60px;
+left: 45.5%;
+}
+
+
+.contato__info {
+font-size: 14px;
+text-align: center;
+color: #737373;
+}
+
+.contato__info p > span {
+font-weight: 700;
+color: #007D08;
+}
+
+.contato__info{
+  text-align: center;
+  font-size: 1em;
+  padding: 20px;
+}
+
+/*--------------------*\
+        ICONES
+\*--------------------*/
+
+.contato__info i {
+font-size: 20px; /*tamanho do icone*/
+color: #D94A3D; /*cor do icone*/
+border: 2px solid #D94A3D; /*borda do icone*/
+padding: 12px; /*espaçamento interno do icone*/
+border-radius: 50%; /*arredondamento dos cantos da borda*/
+margin-bottom: 15px; /*adiciona um espaço entre icone e texto*/
+}
